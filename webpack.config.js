@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-
 const path = require('path');
 const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -7,9 +6,9 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const basePath = __dirname;
 module.exports = {
   entry: [
-    './src/js/index.js',
-    './src/chart-module/index.js',
-    './src/chart-component/chart-component.component.js'
+    path.resolve(basePath, 'src') + '/js/index.js',
+    path.resolve(basePath, 'src') + '/chart-module/index.js',
+    path.resolve(basePath, 'src') + '/chart-component/chart-component.component.js'
   ],
   output: {
     path: path.join(basePath, 'dist'),
@@ -20,25 +19,12 @@ module.exports = {
     contentBase: './dist', // Content base
     inline: true, // Enable watch and live reload
     host: 'localhost',
-    port: 8081,
+    port: 8080,
     stats: 'errors-only'
   },
   devtool: "eval-source-map",
   module: {
     rules: [
-
-      /*
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-        query:
-        {
-          presets: ['es2015'],
-          plugins: ['transform-custom-element-classes', 'transform-es2015-classes']
-        }
-      },
-      */
       {
         test: /\.css$/,
         exclude: /node_modules/,
@@ -50,8 +36,8 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-             // localIdentName: '[name]__[local]___[hash:base64:5]',
-             localIdentName: '[local]',
+              // localIdentName: '[name]__[local]___[hash:base64:5]',
+              localIdentName: '[local]',
               camelCase: true
             }
           }
@@ -73,7 +59,8 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin([
       { from: 'src/assets/data.json', to: 'assets/data.json', force: true },
-      { from: 'src/chart-component/chart-component.component.html', to: 'assets/chart-template.html', force: true }
+      { from: 'src/chart-component/chart-component.component.html', to: 'assets/chart-template.html', force: true },
+      { from: 'src/index.html', to: 'index.html', force: true }
     ])
   ]
 };

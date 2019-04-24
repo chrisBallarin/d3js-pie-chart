@@ -2,6 +2,7 @@
 functions used for different purposes 
 */
 
+
 export const ParseToJson = (objText) => {
     return JSON.parse(objText.replace(/'/g, '"'));
 };

@@ -25,10 +25,6 @@ class XChartElement extends HTMLElement {
         this.createChart(title, array, colors, currency);
     }
 
-
-
-
-
     createChart(title, data, colors, currency) {
         // Summ total
         const total_array = SumTotalFromObject(data.datapie);
@@ -131,7 +127,7 @@ class XChartElement extends HTMLElement {
             .attr('y', -20)
             .attr('font-size', '0.9em')
             .style('fill', '#A4A4A4')
-            .style("text-transform","uppercase")
+            .style("text-transform", "uppercase")
             .text(title);
         svg.append("text")
             .attr("text-anchor", "middle")
@@ -150,7 +146,7 @@ class XChartElement extends HTMLElement {
             })
             .attr('y', 85)
             .attr('font-size', '0.9em')
-            .style("text-transform","capitalize")
+            .style("text-transform", "capitalize")
             .style("fill", function (d) { return color(d.data.key); })
             .style('font-weight', '700')
             .text(function (d) {

@@ -1,0 +1,23 @@
+{
+    "rootDir": "../../",
+    "testRegex": "\\.spec\\.jsx?$",
+    "testURL": "http://localhost:8080",
+    "moduleFileExtensions": [
+        "js",
+        "jsx",
+        "json"
+    ],
+    "setupFiles": [
+        "<rootDir>/config/test/polyfills.js"
+    ],
+    "restoreMocks": true,
+    "transform": {
+        "^.+\\.js$": "babel-jest"
+    },
+    "moduleDirectories": [
+        "node_modules"
+    ],
+    "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+    ]
+}
