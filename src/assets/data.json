@@ -1,0 +1,344 @@
+[
+    {
+        "description": "revenue",
+        "currency": "€",
+        "data": [
+            {
+                "name": "smartphone",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 12000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 6000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 6000
+                    },
+                    {
+                        "description": "apr",
+                        "value": 1000
+                    },
+                    {
+                        "description": "may",
+                        "value": 4300
+                    },
+                    {
+                        "description": "jun",
+                        "value": 2700
+                    },
+                    {
+                        "description": "jul",
+                        "value": 6500
+                    },
+                    {
+                        "description": "aug",
+                        "value": 7500
+                    },
+                    {
+                        "description": "sep",
+                        "value": 8500
+                    },
+                    {
+                        "description": "oct",
+                        "value": 6000
+                    },
+                    {
+                        "description": "nov",
+                        "value": 13000
+                    },
+                    {
+                        "description": "dec",
+                        "value": 6500
+                    }
+                ],
+                "color": "#2C6A00"
+            },
+            {
+                "name": "tablet",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 3000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 5000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 7500
+                    },
+                    {
+                        "description": "apr",
+                        "value": 10000
+                    },
+                    {
+                        "description": "may",
+                        "value": 9500
+                    },
+                    {
+                        "description": "jun",
+                        "value": 8000
+                    },
+                    {
+                        "description": "jul",
+                        "value": 10200
+                    },
+                    {
+                        "description": "aug",
+                        "value": 13600
+                    },
+                    {
+                        "description": "sep",
+                        "value": 15000
+                    },
+                    {
+                        "description": "oct",
+                        "value": 12200
+                    },
+                    {
+                        "description": "nov",
+                        "value": 14300
+                    },
+                    {
+                        "description": "dec",
+                        "value": 11700
+                    }
+                ],
+                "color": "#6ED700"
+            }
+        ]
+    },
+    {
+        "description": "impresions",
+        "currency": "",
+        "data": [
+            {
+                "name": "Smartphone",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 2300000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 4000000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 3000000
+                    },
+                    {
+                        "description": "apr",
+                        "value": 1500000
+                    },
+                    {
+                        "description": "may",
+                        "value": 3200000
+                    },
+                    {
+                        "description": "jun",
+                        "value": 3500000
+                    },
+                    {
+                        "description": "jul",
+                        "value": 1800000
+                    },
+                    {
+                        "description": "aug",
+                        "value": 2300000
+                    },
+                    {
+                        "description": "sep",
+                        "value": 3400000
+                    },
+                    {
+                        "description": "oct",
+                        "value": 1600000
+                    },
+                    {
+                        "description": "nov",
+                        "value": 1300000
+                    },
+                    {
+                        "description": "dec",
+                        "value": 2100000
+                    }
+                ],
+                "color": "#23566A"
+            },
+            {
+                "name": "tablet",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 5000000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 2600000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 1200000 
+                    },
+                    {
+                        "description": "apr",
+                        "value": 1580000
+                    },
+                    {
+                        "description": "may",
+                        "value": 1900000
+                    },
+                    {
+                        "description": "jun",
+                        "value": 1800000
+                    },
+                    {
+                        "description": "jul",
+                        "value": 1800000
+                    },
+                    {
+                        "description": "aug",
+                        "value": 1020000
+                    },
+                    {
+                        "description": "sep",
+                        "value": 1400000
+                    },
+                    {
+                        "description": "oct",
+                        "value": 1000000
+                    },
+                    {
+                        "description": "nov",
+                        "value": 600000
+                    },
+                    {
+                        "description": "dec",
+                        "value": 100000
+                    }
+                ],
+                "color": "#58CAF2"
+            }
+        ]
+    },
+    {
+        "description": "visits",
+        "currency": "",
+        "data": [
+            {
+                "name": "smartphone",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 3000000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 3200000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 23600000
+                    },
+                    {
+                        "description": "apr",
+                        "value": 1900000
+                    },
+                    {
+                        "description": "may",
+                        "value": 21850000
+                    },
+                    {
+                        "description": "jun",
+                        "value": 31300000
+                    },
+                    {
+                        "description": "jul",
+                        "value": 21700000
+                    },
+                    {
+                        "description": "aug",
+                        "value": 4200000
+                    },
+                    {
+                        "description": "sep",
+                        "value": 1450000
+                    },
+                    {
+                        "description": "oct",
+                        "value": 1200000
+                    },
+                    {
+                        "description": "nov",
+                        "value": 3900000
+                    },
+                    {
+                        "description": "dec",
+                        "value": 2700000
+                    }
+                ],
+                "color": "#CF5000"
+            },
+            {
+                "name": "tablet",
+                "data": [
+                    {
+                        "description": "jan",
+                        "value": 20000000
+                    },
+                    {
+                        "description": "feb",
+                        "value": 25000000
+                    },
+                    {
+                        "description": "mar",
+                        "value": 33000000
+                    },
+                    {
+                        "description": "apr",
+                        "value": 10000000
+                    },
+                    {
+                        "description": "may",
+                        "value": 35000000
+                    },
+                    {
+                        "description": "jun",
+                        "value": 38000000
+                    },
+                    {
+                        "description": "jul",
+                        "value": 40000000
+                    },
+                    {
+                        "description": "aug",
+                        "value": 35000000
+                    },
+                    {
+                        "description": "sep",
+                        "value": 50000000
+                    },
+                    {
+                        "description": "oct",
+                        "value": 61000000
+                    },
+                    {
+                        "description": "nov",
+                        "value": 68000000
+                    },
+                    {
+                        "description": "dec",
+                        "value": 65000000
+                    }
+                ],
+                "color": "#FFC100"
+            }
+        ]
+    }
+]
