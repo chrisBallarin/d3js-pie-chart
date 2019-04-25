@@ -12,7 +12,7 @@ export const ChartView = async () => {
     // stores the js template function 
     // replaces the template placeholders with what is passed in the object
     const htmlTemp = await GetTemplateRequest('assets/chart-template.html');
-    const data_order = reorderArrayToChart(data);
+    const data_order = ReorderArrayToChart(data);
 
     const elementDiv = document.createElement('div'); // is a node
     elementDiv.className = "flex-container";
@@ -56,7 +56,7 @@ export const ChartView = async () => {
   We need a specific scheme in chart line and pie.
  */
 
-const reorderArrayToChart = (arr) => {
+export const ReorderArrayToChart = (arr) => {
   // for pie
 
   const nArray = [];

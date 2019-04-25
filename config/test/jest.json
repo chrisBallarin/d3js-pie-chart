@@ -12,7 +12,8 @@
     ],
     "restoreMocks": true,
     "transform": {
-        "^.+\\.js$": "babel-jest"
+        "^.+\\.js$": "babel-jest",
+        ".+\\.(css|styl|less|sass|scss)$": "jest-transform-css"
     },
     "moduleDirectories": [
         "node_modules"
