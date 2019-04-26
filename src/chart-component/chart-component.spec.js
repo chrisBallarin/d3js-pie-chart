@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-import { ReorderArrayToChart } from './chart-component.component';
+import { ReorderArrayToChart } from './model/restruture';
 import { LoadJSON } from '../service/extdata';
 
 describe('chart-component/chart-component.component tests', () => {
